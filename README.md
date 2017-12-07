@@ -146,5 +146,13 @@ queries.add("UPDATE items SET stock=stock-2 WHERE id=1");
 db.TransactionExecute(queries);
 ```
 
+## Not documented (yet):
+* trust.db.TableComposer
+* trust.image.Resizer
+* trust.repository.Saveable
+* trust.repository.RepoBase
+
+Well... you might not want to use those anyway. It's very useful for me. But i don't feel like explaining right now. If you are curious or interested, try reading the source code. The are quite simple actually.
+
 # License
 Use it as you like, but dont blame me if anything goes wrong.
