@@ -2,6 +2,11 @@
 A java library for simplifying many things. Especially database operations.
 # Installation
 In netbeans, just include this project in your project. Or manually compile this source code to jar and include the jar file.
+You might need to include libraries:
+- MySQL JDBC Driver (available in Netbeans),
+- PostgreSQL JDBC Driver (available in Netbeans), and
+- GSON (from https://github.com/google/gson)
+
 # Usages
 Below are usage examples.
 ## package trust.common:
